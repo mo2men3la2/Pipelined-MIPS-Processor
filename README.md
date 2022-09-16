@@ -1,6 +1,6 @@
 # Pipelined-MIPS-Processor
 ## Introduction:
-In this project, I have implemented a 32-bit Pipelined microarchitecture MIPS processor based on Harvard Architecture. The single-cycle microarchitecture executes an entire instruction in one cycle. In other words instruction fetch, instruction decode, execute, write back, and program counter update occurs within a single clock cycle.
+In this project, I have implemented a 32-bit Pipelined microarchitecture MIPS processor based on Harvard Architecture. My design provides early branch prediction and it has a hazard control unit that handles both data and control hazards by Forwarding, Stalling or Flushing), the design is simulated on ModelSim tool.
 ## Objective:
 Referring to the figure below. I have written the RTL Verilog files for all submodules of the MIPS processor (e.g. Contol Unit, Hazard Unit, Instruction Memory, etc.). Then, implemented the top module of the MIPS processor.
 ![image](https://user-images.githubusercontent.com/54054905/190707040-33d23e58-b550-4ffd-a6b2-1f81f4dcb104.png)
